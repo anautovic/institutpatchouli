@@ -64,7 +64,11 @@ const ProductItem = ({product, handleCheck}) => {
                 </h5>
 
                 <div className="row justify-content-between mx-0">
+<<<<<<< HEAD
                     <h6 className="text-danger">${product.price}</h6>
+=======
+                    <h6 className="text-danger">{product.price}fcfa</h6>
+>>>>>>> f
                     {
                         product.inStock > 0
                         ? <h6 className="text-danger">In Stock: {product.inStock}</h6>

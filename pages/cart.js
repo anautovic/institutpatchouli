@@ -134,9 +134,21 @@ const Cart = () => {
 
             
             <Link href={auth.user ? '#!' : '/signin'}>
+<<<<<<< HEAD
               <a className="btn btn-dark my-2" onClick={handlePayment}>Proceed with payment</a>
             </Link>
             
+=======
+              <a className="btn btn-dark my-2 mx-2 text-lowercase " onClick={handlePayment}>Commandez</a>
+            </Link>
+            
+            <button type="button" className="btn btn-dark my-2 mx-2 " ><a href="tel:+237 690915116" style= {{
+        textDecoration:"none",
+        }}>Appelez nous</a>
+        
+      </button>
+            
+>>>>>>> f
         </div>
       </div>
     )

@@ -1,0 +1,65 @@
+.accueiltitre {
+ 
+  font-size: 1.3rem;
+    padding: 1rem 2rem;
+    line-height: 1.5;
+    color: #55595c;
+    text-align: left;
+}
+@media only screen and (max-width:400px) {
+  .accueiltitre{
+    
+    font-size:1.2rem;
+  padding: 1rem 1rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+    color: #55595c;
+    text-align: left;
+}
+}
+.image_accueil{
+  height:150px;
+    width:200px;
+    padding:6px;
+    margin:6px;
+}
+   
+    @media only screen and (max-width:424px) {
+      .image_accueil{
+        height:120px;
+        width:100px;
+        padding: 2px;
+        margin:2px;    
+      }
+    }
+     @media only screen and (min-width:1024px) {
+    .image_accueil{
+    height:180px;
+    width:200px;
+    padding: 2px;
+    margin:2px;
+    }
+  }
+
+  .contenth2{ color:#000; padding:50px 0px 15px; text-align:center; font-size:40px; font-weight:600;}
+.contenth4{ color:#E38B06; padding:5px 20px 50px; line-height:27px; text-align:center; font-size:17px; font-weight:600;}
+.contentparts{padding:15px 16px; margin:10px 25px 40px; background:#EEE;}
+.contenticons{ font-size:42px; width:65px; height:62px; padding:10px; border-radius:100px; 
+background:#E38B06; margin-top:-50px !important; color:#000; margin:10px auto; text-align:center;}
+.contenth3{ font-size:22px; padding:15px 0px; text-align:center; 
+color:#000; font-weight:600; text-transform:uppercase;}
+.contentp{ font-family:Nunito;  padding:15px; text-align:center; font-size:1.7rem; 
+  line-height: 1.5;
+  letter-spacing: normal;
+    color: #55595c;}
+
+@media only screen and (min-width:320px) and (max-width:480px){ 
+.contenth2{font-size:25px;}
+}
+@media only screen and (min-width:481px) and (max-width:780px){
+	.contentparts{ padding:10px 10px 30px;}
+	.contenth3{font-size:18px; } 
+	.contentp{ 
+    font-size: 17px;
+    padding: 1rem 1.5rem}
+}
