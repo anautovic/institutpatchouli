@@ -1,9 +1,6 @@
 import React, { useContext } from 'react'
 import Link from 'next/link'
-<<<<<<< HEAD
-=======
 import Image from 'next/image'
->>>>>>> f
 import {useRouter} from 'next/router'
 import {DataContext} from '../store/GlobalState'
 import Cookie from 'js-cookie'
@@ -72,27 +69,18 @@ function NavBar() {
     }
 
     return (
-<<<<<<< HEAD
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link  href="/">
-                <a className="navbar-brand">DEVAT</a>
-=======
         <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{fontFamily:'Nunito'}}>
             <Link  href="/">
                 
                 <a className="navbar-brand" >
     <Image src="/logo_pat.jpg" width={80} height={80} alt="logo"  />
   </a>
->>>>>>> f
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul className="navbar-nav p-1">
-<<<<<<< HEAD
-                    <li className="nav-item">
-=======
                     
                     <li className="nav-item">
                         <Link href="/">
@@ -121,7 +109,6 @@ function NavBar() {
         </Link>
                </li>
                <li className="nav-item">
->>>>>>> f
                         <Link href="/cart">
                             <a className={"nav-link" + isActive('/cart')}>
                                 <i className="fas fa-shopping-cart position-relative" aria-hidden="true">
@@ -141,11 +128,8 @@ function NavBar() {
                             </a>
                         </Link>
                     </li>
-<<<<<<< HEAD
-=======
 
 
->>>>>>> f
                     {
                         Object.keys(auth).length === 0 
                         ? <li className="nav-item">

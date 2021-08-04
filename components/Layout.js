@@ -1,13 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-import NavBar from './NavBar'
-import Notify from './Notify'
-import Modal from './Modal'
-
-function Layout({children}) {
-    return (
-        <div className="container">
-=======
 import Head from 'next/head'
 import NavBar from './NavBar'
 import Notify from './Notify'
@@ -32,18 +23,13 @@ function Layout({children}) {
         En plus de la formation nous offrons des stages et des attestations délivrées par l'Etat." key="ogdesc" />
         </Head>
         <div className="container-fluid">
->>>>>>> f
             <NavBar />
             <Notify />
             <Modal />
             {children}
-<<<<<<< HEAD
-        </div>
-=======
             <Footer />
         </div>
         </>
->>>>>>> f
     )
 }
 
