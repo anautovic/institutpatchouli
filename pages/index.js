@@ -22,8 +22,8 @@ const Accueil = () => {
             </Head>
             
 
-            <img src="https://res.cloudinary.com/wil/image/upload/v1620932120/hero1_hzhcjg.webp" className="img-fluid"
- alt="couverture patchouli"></img>
+            <img src="https://res.cloudinary.com/wil/image/upload/v1620932120/hero1_hzhcjg.webp" className="img-fluid my-4 "
+ alt="couverture patchouli" style = {{marginTop:'10px'}}></img>
 
 <div className="jumbotron">
 <h1 className="text-justify text-center text-uppercase" data-aos="zoom-in" style = {{

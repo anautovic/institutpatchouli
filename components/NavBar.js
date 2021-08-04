@@ -69,10 +69,11 @@ function NavBar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{fontFamily:'Nunito'}}>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{fontFamily:'Nunito', marginTop:'0px', paddingTop:'0px',
+         marginBottom:'0px', paddingBottom:'0px'}}>
             <Link  href="/">
                 
-                <a className="navbar-brand" >
+                <a className="navbar-brand py-0 my-0" >
     <Image src="/logo_pat.jpg" width={80} height={80} alt="logo"  />
   </a>
             </Link>
