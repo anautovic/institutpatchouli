@@ -62,9 +62,9 @@ const Footer = () => {
                             </div>
                             <ul>
                                 <li><Link href ="/">Accueil</Link></li>
-                                <li><Link href="/maboutique">E-shop</Link></li>
-                                <li><Link href="/formation">Formation</Link></li>
-                                <li><Link href="/gallerie">Galerie</Link></li>
+                                <li><Link href="/eshop">E-shop</Link></li>
+                                <li><Link href="/formations">Formation</Link></li>
+                                <li><Link href="/galerie">Galerie</Link></li>
                                 
                             </ul>
                         </div>

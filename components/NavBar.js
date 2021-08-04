@@ -95,7 +95,7 @@ function NavBar() {
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a className="dropdown-item" href="/prestation_coiffure">Coiffure</a>
           <a className="dropdown-item" href="/esthetique">Esthetique</a>
-          <a className="dropdown-item" href="/formation">Formation</a>
+          <a className="dropdown-item" href="/formations">Formation</a>
         </div>
       </li>
       <li className="nav-item">
