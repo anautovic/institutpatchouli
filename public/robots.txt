@@ -1,4 +1,4 @@
-Sitemap: https://institutpatchouli.org/api/posts-sitemap
+Sitemap: https://institutpatchouli.org/sitemap.xml
 
 User-agent: *
 Allow: /*
