@@ -13,7 +13,7 @@ const Accueil = () => {
         <div>
             <Head>
             <title>Institut de beauté patchouli- formation en esthétique cosmétique</title>
-            <meta name='keyword' content="Formation, institut de beauté, Pédicure Manicure, Hammam, Make up , patchouli, rasta passe-meches, antenne Kotto" />
+            <meta name='keyword' content="Formation, institut de beauté, Pédicure Manicure,Mega store Hammam, Make up , patchouli, rasta passe-meches, antenne Kotto" />
         <meta name="description" content="Tu souhaites devenir une professionnelle de la beauté et tu ne sais pas où te former ? 
         L’Institut de beauté patchouli est un centre de formation professionnel offrant des formations 
         dans: onglerie, make-up, coiffure mixte, cosmétiques, esthétiques.

@@ -1,0 +1,6 @@
+Sitemap: https://institutpatchouli.org/api/posts-sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

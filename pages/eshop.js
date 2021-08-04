@@ -63,7 +63,15 @@ const Home = (props) => {
   return(
     <div className="home_page">
       <Head>
+        
         <title>Patchouli mega store</title>
+            <meta name='keyword' content="Formation, institut de beauté, Pédicure Manicure,Mega store Hammam, Make up , patchouli, rasta passe-meches, antenne Kotto" />
+        <meta name="description" content="Bienvenu à patchouli mega store faire vos achats à prix discount." />
+        <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://institutpatchouli.org/eshop" />
+    <meta property="og:title" content="Institut de beauté patchouli" />
+             <meta name="robots" content="index, follow" />
+            
       </Head>
 
       <Filter state={state} />

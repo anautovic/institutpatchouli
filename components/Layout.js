@@ -24,6 +24,7 @@ function Layout({children}) {
         </Head>
         <div className="container-fluid">
             <NavBar />
+            <hr></hr>
             <Notify />
             <Modal />
             {children}

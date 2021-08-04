@@ -69,8 +69,11 @@ function NavBar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{fontFamily:'Nunito', marginTop:'0px', paddingTop:'0px',
-         marginBottom:'0px', paddingBottom:'0px'}}>
+        <div >
+        <nav className="navbar navbar-expand-lg navbar-light bg-light " style={{fontFamily:'Nunito', 
+         marginBottom:'0px', paddingBottom:'0px', 
+         
+        }}>
             <Link  href="/">
                 
                 <a className="navbar-brand py-0 my-0" >
@@ -145,6 +148,7 @@ function NavBar() {
                 </ul>
             </div>
         </nav>
+        </div>
     )
 }
 
