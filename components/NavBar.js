@@ -69,7 +69,7 @@ function NavBar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{fontFamily:'Nunito'}}>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" style={{fontFamily:'Nunito'}}>
             <Link  href="/">
                 
                 <a className="navbar-brand" >
