@@ -86,32 +86,7 @@ function NavBar() {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul className="navbar-nav p-1">
                     
-                    <li className="nav-item">
-                        <Link href="/">
-        <a className={"nav-link" + isActive('/')}>Accueil</a>
-        </Link>
-               </li>
-
-               <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" href="/prestation_coiffure">Coiffure</a>
-          <a className="dropdown-item" href="/esthetique">Esthetique</a>
-          <a className="dropdown-item" href="/formations">Formation</a>
-        </div>
-      </li>
-      <li className="nav-item">
-                        <Link href="/galerie">
-        <a className={"nav-link" + isActive('/galerie')}>Galérie</a>
-        </Link>
-               </li>
-               <li className="nav-item">
-                        <Link href="/eshop">
-        <a className={"nav-link" + isActive('/eshop')}>Mega store</a>
-        </Link>
-               </li>
+                   
                <li className="nav-item">
                         <Link href="/cart">
                             <a className={"nav-link" + isActive('/cart')}>
