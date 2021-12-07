@@ -16,6 +16,9 @@ class MyDocument extends Document{
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800;900&family=Rubik:wght@800&display=swap"  />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  />
                    {/*<script src={`https://www.paypal.com/sdk/js?client-id=${process.env.PAYPAL_CLIENT_ID}`}></script>*/} 
+                   <link rel="preconnect" href="https://app.snipcart.com" />
+<link rel="preconnect" href="https://cdn.snipcart.com" />
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
                 </Head>
                 <body>
                      <script async data-id="78965" src="https://cdn.widgetwhats.com/script.min.js"></script>

@@ -15,12 +15,23 @@ const ProductItem = ({product, handleCheck}) => {
                     <a className="btn btn-info"
                     style={{marginRight: '5px', flex: 1}}>View</a>
                 </Link>
-                <button className="btn btn-success"
+               {/* <button className="btn btn-success"
                 style={{marginLeft: '5px', flex: 1}}
                 disabled={product.inStock === 0 ? true : false} 
                 onClick={() => dispatch(addToCart(product, cart))} >
                     Buy
-                </button>
+        </button>*/
+        }
+
+<button class="snipcart-add-item"
+  data-item-id={product._id}
+  data-item-price={product.price}
+  data-item-url={`/product/${product._id}`}
+  data-item-description= {product.description}
+  data-item-image={product.image}
+  data-item-name={product.title}>
+  Add to cart
+</button>
             </>
         )
     }

@@ -113,6 +113,9 @@ const Home = (props) => {
         </button>
       }
     
+    
+    <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY }></div>
     </div>
   )
 }

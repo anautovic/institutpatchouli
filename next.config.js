@@ -6,6 +6,7 @@ env: {
     REFRESH_TOKEN_SECRET: "pC\\urMUPmv}Rr-krJJB`NPBH/T]ZsVu+jsw2PHW-M3{.3RJ;vhUsPjh55V+wfC=qgPgcn&[vM=wnN+N",
     CLOUD_UPDATE_PRESET: "nextjs_store",
     CLOUD_NANE: "wil",
+    NEXT_PUBLIC_SNIPCART_API_KEY:"M2QwMTEwZmYtNTE3ZS00MDVhLTllMjItMjZlNGQwNTMxZmM4NjM3NzQ0OTU3Nzc0NDI4MTYy",
     
     CLOUD_API: "https://api.cloudinary.com/v1_1/wil/image/upload"
 }
