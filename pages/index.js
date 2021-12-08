@@ -8,6 +8,8 @@ import ProductItem from '../components/product/ProductItem'
 import filterSearch from '../utils/filterSearch'
 import {useRouter} from 'next/router'
 import Filter from '../components/Filter'
+import { ProductJsonLd } from 'next-seo';
+import { NextSeo } from 'next-seo';
 
 const Home = (props) => {
   const [products, setProducts] = useState(props.products)
@@ -63,20 +65,89 @@ const Home = (props) => {
 
   return(
     <div className="home_page">
-      <Head>
+      <NextSeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.megastorepatchouli.vercel.app',
+        title: 'Patchouli mégastore ustensils de cuisine et appareils',
+        description: 'vente des ustensile de cuisine et mixeur',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/wil/image/upload/v1638957183/IMG-20211030-WA0032_c9xmmu.jpg',
+            width: 800,
+            height: 600,
+            alt: 'Assiettes',
+          },
+          {
+            url: 'https://res.cloudinary.com/wil/image/upload/v1638957230/Machine_%C3%A0_caf%C3%A9_tfpecj.jpg',
+            width: 800,
+            height: 600,
+            alt: 'Machine à café',
+          },
+        ],
+      }}
+    />
+
+<ProductJsonLd
+      productName="Executive Anvil"
+      images={[
+        'https://res.cloudinary.com/wil/image/upload/v1638957831/Fer_%C3%A0_vapeur_9500_qnkwgr.jpg',
+        'https://res.cloudinary.com/wil/image/upload/v1638957831/Fer_%C3%A0_vapeur_3_h5ahzm.jpg',
+        ,
+      ]}
+      description="Fer à vapeur  de puissance 3000 watts."
+      brand="BOSCH"
+      color="blue"
+      manufacturerName="BOSCH"
+      manufacturerLogo="https://www.example.com/photos/logo.jpg"
+      material="steel"
+      slogan="POUR UN REPASSAGE ET BRILLANCE DE VOS VETEMENTS."
+      disambiguatingDescription="Executive Anvil, perfect for the business traveller."
+      releaseDate="2014-02-05T08:00:00+08:00"
+      productionDate="2015-02-05T08:00:00+08:00"
+      purchaseDate="2015-02-06T08:00:00+08:00"
+      award="Meilleure vente à la une."
+      reviews={[
+        {
+          author: {
+            type: 'Person',
+            name: 'wil',
+          },
+          datePublished: '2017-01-06T03:37:40Z',
+          reviewBody:
+            'je suis satisfais de ce produit  .',
+          name: 'So awesome!!!',
+          reviewRating: {
+            bestRating: '5',
+            ratingValue: '5',
+            worstRating: '1',
+          },
+          publisher: {
+            type: 'Organization',
+            name: 'Patchouli mégastore',
+          },
+        },
+      ]}
+      aggregateRating={{
+        ratingValue: '4.4',
+        reviewCount: '89',
+      }}
+      offers={[
+        {
+          price: '9000',
+          priceCurrency: 'XAF',
+          priceValidUntil: '2020-11-05',
+          itemCondition: 'https://schema.org/UsedCondition',
+          availability: 'https://schema.org/InStock',
+          url: 'https://www.megastorepatchouli.vercel.app',
+          seller: {
+            name: 'Executive Objects',
+          },
+        },
         
-        <title>Patchouli mega store</title>
-            <meta name='keyword' content="Formation, institut de beauté, Pédicure Manicure,Mega store Hammam, Make up , patchouli, rasta passe-meches, antenne Kotto" />
-        <meta name="description" content="Bienvenu à patchouli mega store faire vos achats à prix discount." />
-        <meta property="og:type" content="Website" />
-    <meta property="og:url" content="https://institutpatchouli.org/eshop" />
-    <meta property="og:title" content="Institut de beauté patchouli" />
-             <meta name="robots" content="index, follow" />
-
-
-             
-            
-      </Head>
+      ]}
+      mpn="925872"
+    />
 
       <Filter state={state} />
 
@@ -114,8 +185,7 @@ const Home = (props) => {
       }
     
     
-    <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
-    <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY }></div>
+   
     </div>
   )
 }
