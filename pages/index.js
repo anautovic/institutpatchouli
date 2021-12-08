@@ -68,7 +68,7 @@ const Home = (props) => {
       <NextSeo
       openGraph={{
         type: 'website',
-        url: 'https://www.megastorepatchouli.vercel.app',
+        url: 'https://www.institutpatchouli.vercel.app',
         title: 'Patchouli mégastore ustensils de cuisine et appareils',
         description: 'vente des ustensile de cuisine et mixeur',
         images: [
@@ -139,7 +139,7 @@ const Home = (props) => {
           priceValidUntil: '2020-11-05',
           itemCondition: 'https://schema.org/UsedCondition',
           availability: 'https://schema.org/InStock',
-          url: 'https://www.megastorepatchouli.vercel.app',
+          url: 'https://www.institutpatchouli.vercel.app',
           seller: {
             name: 'Executive Objects',
           },
