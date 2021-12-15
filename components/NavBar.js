@@ -70,16 +70,66 @@ function NavBar() {
 
     return (
         <div >
+
+
+
+<div className="container">
+		<div className="row align-items-center">
+			<div className="col-xl-2 col-lg-3 col-md-12">
+				<a href='/' className="brand-wrap">
+					<img className="logo" src="/logo_pat.jpg" width={80} height={80} />
+				</a> 
+			</div>
+			<div className="col-xl-6 col-lg-5 col-md-6">
+				
+			</div> 
+			<div className="col-xl-4 col-lg-4 col-md-6">
+				<div className="widgets-wrap float-md-right">
+					
+					<div className="widget-header mr-3">
+                    <Link href="/cart">
+                            <a className={"nav-link" + isActive('/cart')}>
+                                <i className="fas fa-shopping-cart position-relative" aria-hidden="true">
+                                    <span className="position-absolute"
+                                    style={{
+                                        padding: '3px 6px',
+                                        background: '#ed143dc2',
+                                        borderRadius: '50%',
+                                        top: '-10px',
+                                        right: '-10px',
+                                        color: 'white',
+                                        fontSize: '14px'
+                                    }}>
+                                        {cart.length}
+                                    </span>
+                                </i> Cart
+                            </a>
+                        </Link>
+					</div>
+					
+				</div> 
+			</div> 
+		</div> 
+	</div>
+
+
+
+
+
+
+
+
+
         <nav className="navbar navbar-expand-lg navbar-light bg-light " style={{fontFamily:'Nunito', 
          marginBottom:'0px', paddingBottom:'0px', 
          
         }}>
-            <Link  href="/">
+          { /* <Link  href="/">
                 
                 <a className="navbar-brand py-0 my-0" >
     <Image src="/logo_pat.jpg" width={80} height={80} alt="logo"  />
   </a>
-            </Link>
+            </Link>*/}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

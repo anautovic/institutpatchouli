@@ -1,9 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
+//import Script from 'next/script'
 import NavBar from './NavBar'
 import Notify from './Notify'
 import Modal from './Modal'
 import Footer from './footer' 
+//
 
 function Layout({children}) {
     return (
@@ -21,8 +23,10 @@ function Layout({children}) {
         L’Institut de beauté patchouli est un centre de formation professionnel offrant des formations 
         dans: onglerie, make-up, coiffure mixte, cosmétiques, esthétiques.
         En plus de la formation nous offrons des stages et des attestations délivrées par l'Etat." key="ogdesc" />
+        
         </Head>
         <div className="container-fluid">
+       {/* <Script async data-id="78965" src="https://cdn.widgetwhats.com/script.min.js"></Script>*/} 
             <NavBar />
             <hr></hr>
             <Notify />
