@@ -16,7 +16,7 @@ export const addToCart = (product, cart) => {
         return item._id !== product._id
     })
 
-    if(!check) return ({ type: 'NOTIFY', payload: {error: 'Le produit a déja  été ajouté au panier! cliquer sur la panier en haut .'} }) 
+    if(!check) return ({ type: 'NOTIFY', payload: {error: 'Le produit a déja  été ajouté au panier! cliquer sur la panier Cart en haut .'} }) 
 
     return ({ type: 'ADD_CART', payload: [...cart, {...product, quantity: 1}] }) 
 }
