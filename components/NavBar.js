@@ -73,7 +73,7 @@ function NavBar() {
 
 
 
-<div className="container">
+<div className="container  ">
 		<div className="row align-items-center">
 			<div className="col-xl-2 col-lg-3 col-md-12">
 				<a href='/' className="brand-wrap">
@@ -83,7 +83,7 @@ function NavBar() {
 			<div className="col-xl-6 col-lg-5 col-md-6">
 				
 			</div> 
-			<div className="col-xl-4 col-lg-4 col-md-6">
+			<div className="col-xl-4 col-lg-4 col-md-6  ">
 				<div className="widgets-wrap float-md-right">
 					
 					<div className="widget-header mr-3">
