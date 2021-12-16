@@ -24,6 +24,8 @@ function Layout({children}) {
         dans: onglerie, make-up, coiffure mixte, cosmétiques, esthétiques.
         En plus de la formation nous offrons des stages et des attestations délivrées par l'Etat." key="ogdesc" />
         
+
+         <script dangerouslySetInnerHTML={{ __html: `async data-id="78965" src="https://cdn.widgetwhats.com/script.min.js"` }} />
         </Head>
         <div className="container-fluid">
        {/* <Script async data-id="78965" src="https://cdn.widgetwhats.com/script.min.js"></Script>*/} 
