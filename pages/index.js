@@ -10,6 +10,9 @@ import {useRouter} from 'next/router'
 import Filter from '../components/Filter'
 import { ProductJsonLd } from 'next-seo';
 import { NextSeo } from 'next-seo';
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
+//import FloatingWhatsApp from 'react-floating-whatsapp'
 
 const Home = (props) => {
   const [products, setProducts] = useState(props.products)
@@ -64,11 +67,15 @@ const Home = (props) => {
   }
 
   return(
+  
+
+    
     <div className="home_page">
+
       <NextSeo
       openGraph={{
         type: 'website',
-        url: 'https://www.institutpatchouli.vercel.app',
+        url: 'https://www.megastore.vercel.app',
         title: 'Patchouli mégastore ustensils de cuisine et appareils',
         description: 'vente des ustensile de cuisine et mixeur',
         images: [
@@ -99,7 +106,7 @@ const Home = (props) => {
       brand="BOSCH"
       color="blue"
       manufacturerName="BOSCH"
-      manufacturerLogo="https://www.example.com/photos/logo.jpg"
+      
       material="steel"
       slogan="POUR UN REPASSAGE ET BRILLANCE DE VOS VETEMENTS."
       disambiguatingDescription="Executive Anvil, perfect for the business traveller."
@@ -139,7 +146,7 @@ const Home = (props) => {
           priceValidUntil: '2020-11-05',
           itemCondition: 'https://schema.org/UsedCondition',
           availability: 'https://schema.org/InStock',
-          url: 'https://www.institutpatchouli.vercel.app',
+          url: 'https://www.megastore.vercel.app',
           seller: {
             name: 'Executive Objects',
           },
@@ -148,7 +155,11 @@ const Home = (props) => {
       ]}
       mpn="925872"
     />
-
+<WhatsAppWidget phoneNumber='+237 699504975'
+companyName='Mégastore'
+textReplyTime='support en ligne'
+message='Hello! 👋🏼 quel(s) article(s) vous intéresse'
+ />
       <Filter state={state} />
 
       {
@@ -187,6 +198,7 @@ const Home = (props) => {
     
    
     </div>
+  
   )
 }
 
